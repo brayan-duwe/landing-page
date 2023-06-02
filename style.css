@@ -93,6 +93,12 @@ body {
     box-shadow: 4px 5px 4px rgba(243, 7, 7, 0.25);
 }
 
+.conteudo-principal-escrito-botao:hover {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    box-shadow: 4px 5px 4px rgba(255, 255, 255, 0.25);
+}
+
 .conteudo-principal-escrito-botao-ops {
     border: none;
     height: 4.5rem;
@@ -109,13 +115,17 @@ body {
     justify-content: center;
 }
 
-.conteudo-principal-escrito-botao:hover {
+.conteudo-principal-escrito-botao-ops:hover {
     background-color: var(--cor-terciaria);
     color: var(--cor-secundaria);
     box-shadow: 4px 5px 4px rgba(255, 255, 255, 0.25);
 }
 
 .conteudo-principal-imagem {
+    height: 25rem;
+}
+
+.conteudo-principal-imagem-maior {
     height: 25rem;
 }
 
@@ -197,4 +207,113 @@ footer {
     font-family: var(--fonte-conteudo);
     font-size: 0.75rem;
     font-weight: 400;
+}
+
+@media screen and (max-width: 768px){
+
+    .cabecalho-imagem {
+        height: 1.5rem;
+        margin-right: 1rem;
+    }
+    
+    .cabecalho-menu {
+        gap: 1rem;
+        font-size: 0.8rem;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /* .cabecalho-menu-item {
+        align-items: center;
+        justify-content: ;
+    } */
+
+    .conteudo-principal {
+        flex-direction: column-reverse;
+    }
+
+    .conteudo-principal-imagem {
+        height: 20rem;
+    }
+
+    .conteudo-principal-imagem-maior {
+        height: 15rem;
+    }
+
+    .conteudo-principal-escrito {
+        padding-top: 3rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 3rem;
+
+    }
+
+    .conteudo-principal-escrito-titulo {
+        font-size: 2rem;
+    }
+
+    .conteudo-principal-escrito-subtitulo {
+        font-size: 1rem;
+
+    }
+
+    .conteudo-principal-escrito-botao {
+        height: 3.5rem;
+        width: 22rem;
+        border-radius: 0.75rem;
+        font-size: 1rem;
+        margin: 0 auto;
+        display: block;
+    }
+    .conteudo-principal-escrito-botao-ops {
+        height: 3.5rem;
+        width: 22rem;
+        border-radius: 0.75rem;
+        font-size: 1rem;
+        align-content: center;
+        margin: 0 auto;
+    }
+
+    .conteudo-secundario {
+        padding: 2rem;
+    }
+    .conteudo-secundario-titulo {
+        font-size: 1rem;
+    }
+    .conteudo-secundario-paragrafo {
+        font-size: 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .rodape-logo {
+        gap: 0.5rem;
+    }
+
+    .rodape-logo-imagem {
+        height: 2rem;
+    }
+
+    .rodape-logo-escrita {
+        font-size: 1.4rem;
+    }
+
+    .rodape-criado-por {
+        font-size: 0.9rem;
+    }
+
+    .rodape-creditos-titulo {
+        border-top: 0.01rem solid var(--cor-secundaria);
+        padding-top: 1rem;
+        margin-bottom: 0.75rem;
+        font-size: 0.9rem;
+    }
+
+    .rodape-creditos-credito {
+        font-size: 0.8rem;
+    }
 }
