@@ -1,5 +1,5 @@
 Olá,
-Esse projeto foi feito com base em um projeto da Rafaella Ballerini, mas desenvolvido por mim, Brayan Duwe, feito inteiramente em HTML e CSS.
+Esse projeto foi feito com base em um projeto da Rafaella Ballerini, desenvolvido por mim Brayan Duwe e é inteiramente em HTML e CSS.
 
 
 Esse projeto é fictício e o "hiperBOT" não existe na vida real. Ele foi criado a fim de aprender e me aperfeiçoar em HTML e CSS.
