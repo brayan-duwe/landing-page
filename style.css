@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --cor-primaria: #010c32;
+    --cor-secundaria: #d04b47;
+    --cor-terciaria: #f6f6f6;
+    --cor-quartenaria: #00020aa7;
+    --fonte-titulos: 'Righteous', sans-serif;
+    --fonte-conteudo: 'Sarala', sans-serif;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0c103e 16.62%, #24305e 85.61%);
+}
+
+.cabecalho {
+    color: var(--cor-terciaria);
+    background-color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem;
+    font-family: var(--fonte-conteudo);
+    font-weight: 400;
+}
+
+.cabecalho-imagem {
+    height: 2.5rem;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.cabecalho-menu-item {
+    color: var(--cor-terciaria);
+}
+
+.cabecalho-menu-item:hover {
+    color: var(--cor-secundaria);
+}
+
+.conteudo {
+    margin-bottom: 4rem;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 4rem;
+}
+
+.conteudo-principal-escrito {
+    color: var(--cor-terciaria);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: var(--fonte-titulos);
+    font-size: 3.25rem;
+    font-weight: 400;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: var(--fonte-conteudo);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.conteudo-principal-escrito-botao {
+    border: none;
+    height: 4.5rem;
+    width: 14rem;
+    background-color: var(--cor-secundaria);
+    border-radius: 1.25rem;
+    color: var(--cor-terciaria);
+    font-size: 1.25rem;
+    font-family: var(--fonte-conteudo);
+    font-weight: 400;
+    box-shadow: 4px 5px 4px rgba(243, 7, 7, 0.25);
+}
+
+.conteudo-principal-escrito-botao-ops {
+    border: none;
+    height: 4.5rem;
+    width: 14rem;
+    background-color: var(--cor-secundaria);
+    border-radius: 1.25rem;
+    color: var(--cor-terciaria);
+    font-size: 1.25rem;
+    font-family: var(--fonte-conteudo);
+    font-weight: 400;
+    box-shadow: 4px 5px 4px rgba(243, 7, 7, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    box-shadow: 4px 5px 4px rgba(255, 255, 255, 0.25);
+}
+
+.conteudo-principal-imagem {
+    height: 25rem;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-terciaria);
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    gap: 1.5rem;
+}
+
+.conteudo-secundario-titulo {
+    font-family: var(--fonte-titulos);
+    font-size: 1.25rem;
+    font-weight: 400;
+    border-top: 0.001rem solid var(--cor-terciaria);
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: var(--fonte-conteudo);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+footer {
+    background-color: var(--cor-terciaria);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.rodape-logo {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.rodape-logo-imagem {
+    height: 3rem;
+}
+
+.rodape-logo-escrita {
+    font-family: var(--fonte-titulos);
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+}
+
+.rodape-creditos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-secundaria);
+}
+
+.rodape-creditos-titulo {
+    font-family: var(--fonte-conteudo);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.rodape-criado-por {
+    font-family: var(--fonte-conteudo);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-secundaria);
+}
+
+.rodape-creditos-credito {
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-conteudo);
+    font-size: 0.75rem;
+    font-weight: 400;
+}
