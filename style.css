@@ -211,6 +211,10 @@ footer {
 
 @media screen and (max-width: 768px){
 
+    .cabecalho {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
     .cabecalho-imagem {
         height: 1.5rem;
         margin-right: 1rem;
@@ -218,16 +222,11 @@ footer {
     
     .cabecalho-menu {
         gap: 1rem;
-        font-size: 0.8rem;
+        font-size: 0.65rem;
         align-items: center;
         justify-content: center;
     }
     
-    /* .cabecalho-menu-item {
-        align-items: center;
-        justify-content: ;
-    } */
-
     .conteudo-principal {
         flex-direction: column-reverse;
     }
@@ -295,25 +294,25 @@ footer {
     }
 
     .rodape-logo-imagem {
-        height: 2rem;
+        height: 1.8rem;
     }
 
     .rodape-logo-escrita {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .rodape-criado-por {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .rodape-creditos-titulo {
         border-top: 0.01rem solid var(--cor-secundaria);
         padding-top: 1rem;
         margin-bottom: 0.75rem;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     .rodape-creditos-credito {
-        font-size: 0.8rem;
+        font-size: 0.65rem;
     }
 }
